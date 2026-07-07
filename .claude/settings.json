@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(git push --force*)",
+      "Bash(firebase firestore:delete*)",
+      "Bash(gcloud * delete*)"
+    ],
+    "defaultMode": "acceptEdits"
+  }
+}
